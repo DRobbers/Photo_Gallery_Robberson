@@ -1,3 +1,20 @@
-h1 {
-    color:blue;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1310px;
+    background-color: #000000;
+}
+header h1 {
+    font-size: 40px;
+    color: #007d7b;
+    float: left;
+}
+li {
+    font-size: 20px;
+    color: #ffffff;
+}
+section {
+    background-color: #ffffff;
+    width: 850px;
+    height: 1600px;
+
 }
