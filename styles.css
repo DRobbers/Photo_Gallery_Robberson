@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 1310px;
+    max-width: 1310px;
     background-color: #000000;
 }
 header h1 {
@@ -8,13 +8,23 @@ header h1 {
     color: #007d7b;
     float: left;
 }
-li {
+ a {
     font-size: 20px;
     color: #ffffff;
+  
+}
+nav li {
+    display: inline-block;
+    
+    
 }
 section {
     background-color: #ffffff;
     width: 850px;
-    height: 1600px;
+    height: 1200px;
 
+}
+footer {
+    color: #ffffff;
+    max-width: 1310px;
 }
