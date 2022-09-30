@@ -1,12 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1310px;
-    background-color: #000000;
+    background-color: #000000; 
 }
 header h1 {
     font-size: 40px;
     color: #007d7b;
     float: left;
+    padding-left: 10px;
 }
  a {
     font-size: 20px;
@@ -14,16 +15,26 @@ header h1 {
   
 }
 nav li {
-    display: inline-block;
-    
-    
+    float: right;
+    margin-right: 20px;
+    text-transform: uppercase;
+    margin: 25px;
+    padding: 20px;
 }
+a:link {
+    text-decoration: none;
+}
+a:hover { 
+    background-color: #007d7b;
+}
+
 section {
     background-color: #ffffff;
-    width: 850px;
-    height: 1200px;
-
+    margin-top: 80px;
+    height: auto;
+    /* outline: #ffffff; */
 }
+
 footer {
     color: #ffffff;
     max-width: 1310px;
