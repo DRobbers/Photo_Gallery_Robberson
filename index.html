@@ -21,19 +21,22 @@
     </header>
 	<!-- ^ top -->
 </nav>
-<section>
+
 <header>    
     <article>
     <h2>About</h2>
- <img src="images/TK.png" alt="Photographer TK taking picture of landscape"/>
-
-Hello! 
-I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. 
-Gallery
-Here are some highlights of my work. 
-The locations and year are in the caption. 
-</article>
+    <img src="images/TK.png" alt="Photographer TK taking picture of landscape"/>
+        <p>Hello!</p> <br>
+        <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. </p>
+    </article>
 </header>
+
+<section>
+<h2>Gallery</h2>
+<p>Here are some highlights of my work. 
+The locations and year are in the caption.</p> 
+
+
 <nav class="Image_Wrapper">
     <figure class="Item">
         <img src="/images/Chile.png" alt="Chile coastline"/>
@@ -107,15 +110,27 @@ The locations and year are in the caption.
 </nav>
 </section>
 <footer>
-Contact
-Please fill out this form and I’ll connect with you soon.
-
-Your contact information
-Name (Your full name)
+<h2>Contact</h2>
+<p>Please fill out this form and I’ll connect with you soon.</p>
+<!-- Your contact information -->
+<form>
+    <div class="row">
+        <label for="name">Name: </label>
+        <input type="text" id="name" placeholder="Your full name">
+    </div>
+    <div class="row">
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="Enter your email address">
+    </div>
+    <div class="row">
+        <label for="message">Message: </label>
+        <input type="text" id="message" placeholder="What can I help you with?">
+    </div>
+    
 Email (Enter your email address)
 Message (What can I help you with?)
 Submit
-
+</form>
 Copyright 2021 TK Photography
 </footer>
     
