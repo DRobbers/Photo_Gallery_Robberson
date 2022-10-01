@@ -4,7 +4,9 @@
 .box {
     float: left;
     width: 25.33%;
-    padding: 0px;
+    padding: 5px;
+    background-color: #ffffff;
+    
 }
 .clearfix::after {
     content: "";
@@ -42,14 +44,36 @@ nav li {
     text-transform: uppercase;
     margin: 25px;
     padding: 30px;
+    border-radius: 10px;
     
 }
 a:link {
     text-decoration: none;
 }
+a:focus {
+    outline: solid 3px #007d7b;
+}
 a:hover { 
     background-color: #007d7b;
 }
+#top a:hover {
+    background-color: #ffffff;
+    color: #007d7b;
+
+}
+
+[href="#top"] {
+    border: #007d7b;
+    background-color:#007d7b;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius:10px 0px 0px;
+    margin-left: 20 px;
+
+}
+
 article {
     float: left;
     padding-top: 400 px;
