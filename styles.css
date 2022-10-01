@@ -19,6 +19,10 @@ body {
     background-color: #000000; 
     margin: 0 auto;
 }
+header {
+    padding-bottom: 100px;
+}
+
 header h1 {
     font-size: 40px;
     color: #007d7b;
@@ -77,26 +81,7 @@ article p {
     
 
 } 
-.Item {
-    float: left;
-    /* width: 420 px; */
-    /* height: 281 px;  */
-    width: 33%;
-    margin-left: 0px;
-    margin-right: 0px;
 
-    
-}
-.Item_tall {
-    float: left;
-    /* width: 420 px; */
-    /* height: 630 px; */
-    width: 33%;
-    margin-left: 0px;
-    margin-right: 0px;
-    
-    
-}
 
 .floatRight {
     float: right;
