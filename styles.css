@@ -1,25 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1310px;
+    max-height: 2700 px;
     background-color: #000000; 
+    margin: 0 auto;
 }
 header h1 {
     font-size: 40px;
     color: #007d7b;
     float: left;
     padding-left: 10px;
+    
 }
+
  a {
     font-size: 20px;
     color: #ffffff;
+    padding: 5px;
   
 }
 nav li {
     float: right;
-    margin-right: 20px;
     text-transform: uppercase;
     margin: 25px;
-    padding: 20px;
+    padding: 30px;
+    
 }
 a:link {
     text-decoration: none;
@@ -27,16 +32,51 @@ a:link {
 a:hover { 
     background-color: #007d7b;
 }
-
-section {
+article {
+    float: right;
+    padding-top: 400 px;
     background-color: #ffffff;
-    margin-top: 80px;
-    height: auto;
-    /* outline: #ffffff; */
+    
+}
+article h2 {
+    font-size: 40px;
+    
+    color: #000000; 
+    float: right;
+    padding-left: 20 px;
+
+}
+article p {
+    font-size: 20px;
+}
+section {
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #ffffff;    
+    width: 1310 px;
+    height: 1600 px;
+    outline-color: #ffffff;
+
+}
+.Item {
+    float: right;
+    width: 420 px;
+    height: 281 px; 
+    padding: 5px;
+}
+.Item_tall {
+    float: right;
+    width: 420 px;
+    height: 630 px;
+    padding: 5px;
 }
 
 footer {
+    float: right;
     color: #ffffff;
-    max-width: 1310px;
+    position: static;
+    left: 0;
+    bottom: 0;
+    align-content: center;
     
 }
