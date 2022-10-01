@@ -33,9 +33,10 @@ a:hover {
     background-color: #007d7b;
 }
 article {
-    float: right;
+    float: left;
     padding-top: 400 px;
     background-color: #ffffff;
+    padding: 30px 20px;
     
 }
 article h2 {
@@ -48,27 +49,39 @@ article h2 {
 }
 article p {
     font-size: 20px;
+    float: right;
+    
+    
 }
-section {
+
+ main {
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 0px;  
     background-color: #ffffff;    
     width: 1310 px;
     height: 1600 px;
-    outline-color: #ffffff;
+    
 
-}
+} 
 .Item {
-    float: right;
-    width: 420 px;
-    height: 281 px; 
-    padding: 5px;
+    float: left;
+    /* width: 420 px; */
+    /* height: 281 px;  */
+    width: 33%;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    
 }
 .Item_tall {
-    float: right;
-    width: 420 px;
-    height: 630 px;
-    padding: 5px;
+    float: left;
+    /* width: 420 px; */
+    /* height: 630 px; */
+    width: 33%;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    
 }
 
 footer {
