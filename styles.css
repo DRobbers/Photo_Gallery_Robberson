@@ -1,28 +1,39 @@
 * {
     box-sizing: border-box;
+    
 }
+
 .box {
-    float: left;
-    width: 25.33%;
+    float:left;
+    width: 24.5%;
     padding: 5px;
     background-color: #ffffff;
+    font-size: 16px;
+    position: inline-block;
     
 }
 .clearfix::after {
     content: "";
     clear: both;
-    display: table;
+    display: table; 
 
+}
+.Caption    {
+    position: relative;
+    top: -280px;
+    left: 16px;
+    color:red;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1310px;
-    max-height: 2700 px;
+    max-height:fit-content;
     background-color: #000000; 
     margin: 0 auto;
+    
 }
 header {
-    padding-bottom: 100px;
+    padding-bottom: 125px;
 }
 
 header h1 {
@@ -43,7 +54,7 @@ nav li {
     float: right;
     text-transform: uppercase;
     margin: 25px;
-    padding: 30px;
+    padding: 25px;
     border-radius: 10px;
     
 }
@@ -75,26 +86,30 @@ a:hover {
 }
 
 article {
-    float: left;
-    padding-top: 400 px;
+   
+    padding-top: 5px;
     background-color: #ffffff;
     padding: 30px 20px;
+    
+   
     
 }
 article h2 {
     font-size: 40px;
-    
-    color: #000000; 
-    float: right;
+    width: 1310px;
+     color: #000000; 
+    /* float:left; */
     padding-left: 20 px;
+    /* display:inline-block; */
+    float:inline-end;
 
 }
 article p {
     font-size: 20px;
     float: right;
-    
-    
+   
 }
+
 
  main {
     margin: 0 auto;
@@ -102,15 +117,22 @@ article p {
     background-color: #ffffff;    
     width: 1310 px;
     height: 1600 px;
-    
-
+ 
 } 
+form {
+    max-width: 600px;
+    margin: 2rem auto;
 
-
-.floatRight {
-    float: right;
 }
-
+.row {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 1rem;
+}
+.row:first-of-type {
+    padding-top: 3rem;
+    
+}
 
 footer {
    
@@ -118,10 +140,33 @@ footer {
     position: static;
     left: 0;
     bottom: 0;
-   
+    clear: both;
+    text-align: center;
+    padding-bottom: 20px;
+  
 
-
-
+}
+footer h2 {
+    font-size: 40px;
     
-    align-items: center;
+}
+footer p {
+    font-size: 20px;
+}
+footer label {
+    font-size: 20px;
+    
+}
+footer button {
+    padding-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+    border-radius: 10px;
+    background-color: #007d7b;
+    color: #ffffff;
+
+
 }
