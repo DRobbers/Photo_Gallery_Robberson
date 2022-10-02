@@ -85,6 +85,10 @@
     top: -280px;
     left: 16px;
 }
+article img {
+    float: left;
+    margin-right: 150px;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1310px;
@@ -161,10 +165,10 @@ article h2 {
     font-size: 40px;
     width: 1310px;
      color: #000000; 
-    /* float:left; */
+    float: right;
     /* padding-left: 20 px; */
     /* display:inline-block; */
-    float:inline-end;
+    /* float:inline-end; */
 
 }
 article p {
@@ -172,6 +176,7 @@ article p {
     float: right;
    
 }
+
 
 
  main {
