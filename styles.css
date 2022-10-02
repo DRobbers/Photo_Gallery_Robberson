@@ -18,11 +18,71 @@
     display: table; 
 
 }
+/* This section is for my Captions to place in a specific locatoin relative to the image */
 .Caption    {
     position: relative;
+   
+    /* color:red; */
+}
+[title="chile"] {
+    color: #000000;
     top: -280px;
     left: 16px;
-    color:red;
+}
+[title="guatemala"] {
+    color: #ffffff;
+    top: -280px;
+    left: 16px;
+}
+[title="hawaii"] {
+    color: #ffffff;
+    top: -30px;
+    left: 300px;
+}
+[title="iran"] {
+    color:#000000;
+    top: -630px;
+    left: 16px;
+}
+[title="ireland"] {
+    color: #ffffff;
+    top: -30px;
+    left: 300px;
+}
+[title="italy"] {
+    color: #ffffff;
+    top: -30px;
+    left: 16px;
+}
+[title="moab_desert"] {
+    color: #ffffff;
+    top: -30px;
+    left: 300px;
+}
+[title="rocky_mountains"] {
+    color:#000000;
+    top: -280px;
+    left: 16px;
+}
+[title="switzerland"] {
+    color:#000000;
+    top: -30px;
+    left: 16px;
+}
+[title="uk"] {
+    color: #ffffff;
+    top: -30px;
+    left: 300px;
+}
+[title="usa"] {
+    color: #ffffff;
+    top: -280px;
+    left: 16px;
+}
+[title="wyoming"] {
+    color: #ffffff;
+    top: -280px;
+    left: 16px;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -119,6 +179,10 @@ article p {
     height: 1600 px;
  
 } 
+[title="placeholderColor"] {
+    color:#007d7b;
+    
+}
 form {
     max-width: 600px;
     margin: 2rem auto;
@@ -146,8 +210,13 @@ footer {
   
 
 }
+#contact {
+    text-transform: capitalize;
+
+}
 footer h2 {
     font-size: 40px;
+    
     
 }
 footer p {
