@@ -9,7 +9,8 @@
     padding: 5px;
     background-color: #ffffff;
     font-size: 16px;
-    position: inline-block;
+   
+    
     
 }
 .clearfix::after {
@@ -135,13 +136,15 @@ a:hover {
 
 [href="#top"] {
     border: #007d7b;
+    resize:both;
+    padding: 20px;
     background-color:#007d7b;
     color: #ffffff;
     position: fixed;
     bottom: 0px;
     right: 0px;
     border-radius:10px 0px 0px;
-    margin-left: 20 px;
+   
 
 }
 
@@ -159,7 +162,7 @@ article h2 {
     width: 1310px;
      color: #000000; 
     /* float:left; */
-    padding-left: 20 px;
+    /* padding-left: 20 px; */
     /* display:inline-block; */
     float:inline-end;
 
@@ -175,8 +178,8 @@ article p {
     margin: 0 auto;
     padding: 0px;  
     background-color: #ffffff;    
-    width: 1310 px;
-    height: 1600 px;
+    /* width: 1310 px; */
+    /* height: 1600 px; */
  
 } 
 [title="placeholderColor"] {
